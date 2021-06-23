@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/fondo_light.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    height: auto;
+}
+
+.logo{
+    width: 50%;
+    height: auto;
+}
+
+.barra{
+    background: #feff8b;
+    border-radius: 50px;
+}
+
+/* Menu */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: xx-large;
+    color: #2efac8;
+}
+
+/* tipo de letra */
+@font-face{
+    font-family: happy_School;
+    src: url(Happy_School.ttf);
+}
+
+.text1 {
+    font-family: happy_School;
+    font-size: 40px;
+}
+
+.text2{
+    font-family: happy_School;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+p{
+    font-family: Century Gothic;
+    font-size: 50px;
+    color: #8fcadb;
+    display: flex;
+    text-align: center;
+    text-shadow: 7px 5px 5px #2efac8;
+    
+    ;
+}
+
+/* perro */
+.img-perro{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 50%;
+    height: auto;
+}
+
+/* cards */
+
+.card{
+    border-radius: 50px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-family: happy_School;
+    font-size: 35px;
+    color: white;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    font-family: Century Gothic;
+    font-size: 40px;
+    color: white;
+    text-shadow: none !important;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    font-family: happy_School;
+    font-size: 30px;
+    color: #2efac8;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    background-color: #9c8fdb;
+    border-color: #9c8fdb;
+    border-radius: 50px;
+    
+}
+
+/* helados1 */
+.img-fluid1 {
+    /* display: flex;
+    justify-content: center; */
+    max-width: 58%;
+    height: auto;
+    margin-top: -110px;
+    margin-left: 50px;
+}
+
+.img-fluid2 {
+    /* display: flex;
+    justify-content: center; */
+    max-width: 45%;
+    height: auto;
+    margin-top: -105px;
+    margin-left: 80px;
+}
+
+.img-fluid3{
+    max-width: 71%;
+    height: auto;
+    margin-top: -105px;
+    margin-left: 44px;
+}
+
+.img-fluid4{
+    max-width: 32%;
+    height: auto;
+    margin-top: -106px;
+    margin-left: 101px;
+}
+
+/* helados2 */
+.espacio{
+    margin-top: 200px;
+}
+
+.img-fluid5{
+    max-width: 50%;
+    height: auto;
+    margin-top: -110px;
+    margin-left: 70px;
+}
+
+.img-fluid6 {
+    /* display: flex;
+    justify-content: center; */
+    max-width: 49%;
+    height: auto;
+    margin-top: -105px;
+    margin-left: 80px;
+}
+
+.img-fluid7{
+    max-width: 71%;
+    height: auto;
+    margin-top: -110px;
+    margin-left: 44px;
+}
+
+.mt{
+    margin-top: 36px;
+}
+
+.img-fluid8{
+    max-width: 43%;
+    height: auto;
+    margin-top: -120px;
+    margin-left: 95px;
+}
+
+/* carrito */
+
+.icono{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.btn-primary2 {
+    background-color: #9c8fdb;
+    border-color: #9c8fdb;
+    border-radius: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carrito{
+    margin-left: 500px;
+    margin-top: -100px;
+    width: 20%;
+}
+
+.conoF2{
+    width: 80px;
+}
+
+
+.cross{ 
+        background: url(./img/icon-cross.svg);
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+        transition: .3s;       
+}
+
+.card-body1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+.ConoF1{
+    width: 10%;
+    height: auto;
+}
+
+
+.footer{
+    background: #b4d8e9;
+    width: auto;
+    opacity: 80%;
+}
+
+.text_footer{
+    font-family: happy_School;
+    font-size: medium;
+    color: white;
+}
+
+    
