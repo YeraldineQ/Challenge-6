@@ -7,12 +7,26 @@ body{
     background-position: center;
     font-family: sans-serif;
     height: auto;
+    transition: .2s;
+}
+
+/* Estilo modo Dark */
+
+body.dark{
+    margin: 0;
+    padding: 0;
+    background: url(img/fondo_dark.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    height: auto;
 }
 
 .logo{
     width: 50%;
     height: auto;
-}
+} 
 
 .barra{
     background: #feff8b;
@@ -36,10 +50,25 @@ body{
 .text1 {
     font-family: happy_School;
     font-size: 40px;
+    color: #dd47c1;
 }
 
 .text2{
+    display: flex;
+    justify-content: center;
     font-family: happy_School;
+    color: #dd47c1;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+/* Estilo dark */
+body.dark .text2{
+    display: flex;
+    justify-content: center;
+    font-family: happy_School;
+    color: #fcbdf0;
     font-size: 100px;
     margin-top: 10px;
     margin-bottom: 120px;
@@ -53,7 +82,18 @@ p{
     text-align: center;
     text-shadow: 7px 5px 5px #2efac8;
     
-    ;
+    
+}
+
+/* Estilo modo dark */
+
+body.dark p{
+    font-family: Century Gothic;
+    font-size: 50px;
+    color: #8fcadb;
+    display: flex;
+    text-align: center;
+    text-shadow: 7px 5px 5px #2efac700;   
 }
 
 /* perro */
@@ -68,6 +108,8 @@ p{
 
 .card{
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-title{
@@ -102,6 +144,11 @@ p{
     border-color: #9c8fdb;
     border-radius: 50px;
     
+}
+
+
+.mb-6{
+    margin-bottom: 120px;
 }
 
 /* helados1 */
@@ -139,7 +186,7 @@ p{
 
 /* helados2 */
 .espacio{
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 .img-fluid5{
@@ -194,15 +241,15 @@ p{
     background-color: #9c8fdb;
     border-color: #9c8fdb;
     border-radius: 50px;
-    width: 50%;
+    width: 200px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .carrito{
-    margin-left: 500px;
-    margin-top: -100px;
+    
+    margin: -100px auto 0 auto;
     width: 20%;
 }
 
@@ -220,9 +267,10 @@ p{
 }
 
 .card-body1{
-    display: flex;
-    flex-wrap: nowrap;
+      
     margin-top: 100px;
+    
+    
 }
 
 .ConoF1{
@@ -234,13 +282,57 @@ p{
 .footer{
     background: #b4d8e9;
     width: auto;
-    opacity: 80%;
+    
 }
 
 .text_footer{
     font-family: happy_School;
     font-size: medium;
     color: white;
+}
+
+body.dark .text_footer{
+    font-family: happy_School;
+    font-size: medium;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .text2{
+    display: flex;
+    justify-content: center;
+    font-family: happy_School;
+    font-size: 50px;
+    }
+
+    body.dark .text2{
+        display: flex;
+        justify-content: center;
+        font-family: happy_School;
+        font-size: 50px;
+        }
+    
+    
+
+}
+
+@media screen and (max-width: 576px){
+    .text2{
+        display: flex;
+        justify-content: center;
+        font-family: happy_School;
+        font-size: 39px;
+        }
+
+    body.dark .text2{
+        display: flex;
+        justify-content: center;
+        font-family: happy_School;
+        font-size: 39px;
+        }
+
+
+        
 }
 
     
